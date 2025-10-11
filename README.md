@@ -1,5 +1,23 @@
-# The Paper Collection of Inductive Reasoning
+# Inductive Reasoning
 
+Inductive Reasoning involves drawing general conclusions from specific observations.
+The main characteristics of inductive reasoning are its particular-to-general thinking process and the non-uniqueness of its answers. 
+Considering how humans perceive the world, they typically make judgments by drawing analogies from past experiences to current situations, rather than always going through a strictly logical process as in deductive reasoning. 
+We can assume that the inductive mode is key to knowledge generalization and better aligns with human cognition.
+
+![image](https://github.com/141forever/DiaHalu/blob/main/figures/twoexample.png)
+
+We give two examples of inductive reasoning.
+
+
+
+
+
+
+
+
+
+# The Paper Collection of Inductive Reasoning
 
 
 ## Importance
@@ -8,8 +26,6 @@
 
      归纳推理的小综述。
 
-
-​    
 
 ## Benchmarks, Datasets and Tasks
 
@@ -228,12 +244,7 @@
 
 37. **Studying the Inductive Biases of RNNs  with Synthetic Variations of Natural Languages** [NAACL2019] [[paper link](https://aclanthology.org/N19-1356.pdf)]
 
-      研究不同语言类型学特性（如词序、形态格标记）如何影响RNN学习语法的能力。通过生成合成语言，控制变量，研究RNN的归纳偏置。
-
-- 多主语-宾语一致性：联合预测主语和宾语的复数特征比单独预测更好，RNN能够学习跨任务的句法知识。
-- 词序：RNN在主语-动词-宾语（SVO）顺序（如英语）中表现优于主语-宾语-动词（SOV）顺序（如日语）。
-- 显性格标记：显性格标记显著提高了复数预测的准确性，即使词序灵活。
-- 归纳偏置：RNN倾向于依赖近期信息，且在缺乏明确语法标记时表现较差。【预测动词的主语和宾语的复数特征】【基于英语Penn Treebank生成合成语言语料库】【Accuracy、Recall】【双向LSTM】
+      研究不同语言类型学特性（如词序、形态格标记）如何影响RNN学习语法的能力。通过生成合成语言，控制变量，研究RNN的归纳偏置。多主语-宾语一致性：联合预测主语和宾语的复数特征比单独预测更好，RNN能够学习跨任务的句法知识。词序：RNN在主语-动词-宾语（SVO）顺序（如英语）中表现优于主语-宾语-动词（SOV）顺序（如日语）。显性格标记：显性格标记显著提高了复数预测的准确性，即使词序灵活。归纳偏置：RNN倾向于依赖近期信息，且在缺乏明确语法标记时表现较差。【预测动词的主语和宾语的复数特征】【基于英语Penn Treebank生成合成语言语料库】【Accuracy、Recall】【双向LSTM】
 
 38. **On the Inductive Bias of Masked Language Modeling: From Statistical to Syntactic Dependencies** [NAACL2021] [[paper link](https://aclanthology.org/2021.naacl-main.404.pdf)]
 
@@ -267,11 +278,7 @@
 
 45. **Scaling Laws vs Model Architectures:  How Does Inductive Bias Influence Scaling?** [EMNLP2023] [[paper link](https://aclanthology.org/2023.findings-emnlp.825.pdf)]   
 
-      研究不同模型架构（inductive biases）对scaling laws的影响。
-
-- 架构对缩放行为影响显著：不同架构的缩放斜率差异较大，Vanilla Transformer整体缩放效率最高。
-- 性能与规模的非一致性：Evolved Transformer难以扩展到更大规模；Performer等线性注意力模型缩放困难。
-- 上下游性能脱节：Funnel Transformer上游表现良好，但下游任务性能较差。【语言模型预训练和微调】【预训练：C4英文语料库；微调：GLUE、SuperGLUE、SQuAD】【Negative Log-Perplexity、GLUE/SuperGLUE准确率、SQuAD F1分数】【Transformer变体、非Transformer架构：Lightweight /Dynamic Convolutions、MLP-Mixer】
+      研究不同模型架构（inductive biases）对scaling laws的影响。架构对缩放行为影响显著：不同架构的缩放斜率差异较大，Vanilla Transformer整体缩放效率最高。性能与规模的非一致性：Evolved Transformer难以扩展到更大规模；Performer等线性注意力模型缩放困难。上下游性能脱节：Funnel Transformer上游表现良好，但下游任务性能较差。【语言模型预训练和微调】【预训练：C4英文语料库；微调：GLUE、SuperGLUE、SQuAD】【Negative Log-Perplexity、GLUE/SuperGLUE准确率、SQuAD F1分数】【Transformer变体、非Transformer架构：Lightweight /Dynamic Convolutions、MLP-Mixer】
 
 46. **Syntactic Inductive Bias in Transformer Language Models:  Especially Helpful for Low-Resource Languages?** [EMNLP2023] [[paper link](https://aclanthology.org/2023.conll-1.17.pdf)]  
 
@@ -291,7 +298,6 @@
 50. **How Well Can a Long Sequence Model Model Long Sequences? Comparing Architectural Inductive Biases on Long-Context Abilities** [COLING 2025] [[paper link](https://aclanthology.org/2025.coling-main.3.pdf)]
 
     本文评估了各种“长序列模型”（包括纯序列模型、Transformer 变体及混合模型）在超出训练上下文长度下处理长文本序列的能力，揭示理论可扩展性并不总意味着实践中的稳定表现。通过在 Ruler 合成基准以及 needle-in-a-haystack 任务上进行比较，发现无论是纯序列层、注意力机制还是混合结构，所有模型在外推至更长序列时普遍表现不佳，且不同架构对序列格式的敏感性不同，表明归纳偏差的不一致性极大影响长上下文理解能力。【长序列建模】【Ruler 合成任务, needle-in-a-haystack 控制任务】【准确率】【Mamba2（纯序列模型）, Transformer++（改进 Transformer）, Mamba2Attn（混合模型）, RecurrentGemma, Sheared-LLaMA, RWKV 等】  
-
 
 
 ## Evaluations
