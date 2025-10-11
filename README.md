@@ -1,23 +1,48 @@
 # Inductive Reasoning
 
-Inductive Reasoning involves drawing general conclusions from specific observations.
+Inductive reasoning involves drawing general conclusions from specific observations.
 The main characteristics of inductive reasoning are its particular-to-general thinking process and the non-uniqueness of its answers. 
 Considering how humans perceive the world, they typically make judgments by drawing analogies from past experiences to current situations, rather than always going through a strictly logical process as in deductive reasoning. 
 We can assume that the inductive mode is key to knowledge generalization and better aligns with human cognition.
+We give two examples of inductive reasoning in the figure below.
 
-![image](https://github.com/141forever/DiaHalu/blob/main/figures/twoexample.png)
-
-We give two examples of inductive reasoning.
-
-
-
+<p align="center">
+  <img src="https://github.com/141forever/inductive-reasoning-papers/blob/main/Figures/two_examples.jpg" width="50%">
+</p>
 
 
 
+# About the Survey
+
+We have made every effort to collect all top-conference papers from 2015 to 2025 whose titles contain the words ‘inductive’ or ‘induction.’ 
+These conferences include, but are not limited to, NeurIPS, ICML, ICLR, ACL, EMNLP, NAACL, COLING, and EACL. 
+All collected papers are listed below, and their statistics are summarized in the following table. 
+We have conducted a rough categorization of these papers, which may contain errors or overlaps, and we kindly ask for the readers’ understanding.
+Our survey focuses on synthesizing and analyzing papers from this list that are related to inductive tasks and language models.
+This is the link to our survey [[ARXIV]]().
+
+| Conference | 2015 | 2016 | 2017 | 2018 | 2019 | 2020 | 2021 | 2022 | 2023 | 2024 | 2025 |
+|-------------|------|------|------|------|------|------|------|------|------|------|------|
+| **NIPS**        | 0    | 1    | 2    | 2    | 3    | 3    | 9    | 5    | 11   | 11   | x    |
+| **ICML**        | 0    | 0    | 0    | 3    | 0    | 3    | 5    | 9    | 4    | 6    | 9    |
+| **ICLR**        | 0    | 0    | 0    | 1    | 1    | 9    | 4    | 8    | 7    | 9    | 13   |
+| **ACL**         | 6    | 5    | 4    | 8    | 11   | 7    | 10   | 10   | 17   | 13   | 17   |
+| **EMNLP**       | 3    | 2    | 7    | 7    | 12   | 12   | 8    | 13   | 14   | 7    | x    |
+| **NAACL**       | 3    | 2    | x    | 5    | 6    | x    | 4    | 8    | x    | 7    | 5    |
+| **COLING**      | x    | 0    | x    | 2    | x    | 10   | x    | 4    | x    | 13   | 5    |
+| **EACL**        | x    | x    | 6    | x    | x    | x    | 0    | x    | 4    | 4    | x    |
+
+If you find any points in our survey worth discussing or notice any mistakes, feel free to open an issue and share your thoughts!
+
+
+# Citation
+If you think this survey helps, welcome to cite our paper.
+```
+```
 
 
 
-# The Paper Collection of Inductive Reasoning
+# The Paper Collections
 
 
 ## Importance
