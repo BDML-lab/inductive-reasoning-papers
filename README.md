@@ -14,7 +14,7 @@ We give two examples of inductive reasoning in the figure below.
 
 # About the Survey
 
-We have made every effort to collect all top-conference papers from 2015 to 2025 whose titles contain the words ‘inductive’ or ‘induction.’ 
+We have made every effort to collect all top-conference papers from 2015 to 2025 whose titles contain the words ‘inductive’ or ‘induction’ .
 These conferences include, but are not limited to, NeurIPS, ICML, ICLR, ACL, EMNLP, NAACL, COLING, and EACL. 
 All collected papers are listed below, and their statistics are summarized in the following table. 
 We have conducted a rough categorization of these papers, which may contain errors or overlaps, and we kindly ask for the readers’ understanding.
