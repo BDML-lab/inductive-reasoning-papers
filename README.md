@@ -12,7 +12,7 @@ We give two examples of inductive reasoning in the figure below.
 
 
 
-# About the Survey
+# Paper Collection for the Survey
 
 We have made every effort to collect all top-conference papers from 2015 to 2025 whose titles contain the words ‘inductive’ or ‘induction’.
 These conferences include, but are not limited to, NeurIPS, ICML, ICLR, ACL, EMNLP, NAACL, COLING, and EACL. 
@@ -36,7 +36,7 @@ If you find any points in our survey worth discussing or notice any mistakes, fe
 
 
 # Citation
-If you think this survey helps, welcome to cite our paper.
+If you think this survey helps, please cite our paper.
 ```
 @misc{chen2025surveyinductivereasoninglarge,
       title={A Survey of Inductive Reasoning for Large Language Models}, 
@@ -51,7 +51,7 @@ If you think this survey helps, welcome to cite our paper.
 
 
 
-# The Paper Collections
+# The Paper List
 
 
 ## Importance
