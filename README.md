@@ -16,9 +16,10 @@ We give two examples of inductive reasoning in the figure below.
 
 We have made every effort to collect all top-conference papers from 2015 to 2025 whose titles contain the words ‘inductive’ or ‘induction’.
 These conferences include, but are not limited to, NeurIPS, ICML, ICLR, ACL, EMNLP, NAACL, COLING, and EACL. 
-All collected papers are listed below, and their statistics are summarized in the following table. 
+Their statistics are summarized in the following table
+All collected papers are listed below (The Paper List). 
 We have conducted a rough categorization of these papers, which may contain errors or overlaps, and we kindly ask for the readers’ understanding.
-Our survey focuses on synthesizing and analyzing papers from this list that are related to inductive tasks and language models.
+Among all the papers, our survey only focuses on synthesizing and analyzing those related to inductive tasks and language models.
 This is the link to our survey [[ARXIV](https://arxiv.org/abs/2510.10182)].
 
 | Conference | 2015 | 2016 | 2017 | 2018 | 2019 | 2020 | 2021 | 2022 | 2023 | 2024 | 2025 |
@@ -1075,7 +1076,7 @@ If you think this survey helps, please cite our paper.
 
       针对LLM在交互式规则学习中的不足，文章提出IDEA框架，通过模拟人类“假设生成（溯因）-验证（演绎）-修正（归纳）”的循环，提升模型动态学习能力。【在交互式环境中学习隐藏规则并解决问题】【RULEARN基准，包含三种手动设计的谜题类型】【任务成功率、重复动作次数、有效归纳率】【IDEA】
 
-179. **In the LLMera, Word Sense Induction remains unsolved** [ACL2025] [[paper link](https://aclanthology.org/2025.findings-acl.882.pdf)] 
+179. **In the LLM era, Word Sense Induction remains unsolved** [ACL2025] [[paper link](https://aclanthology.org/2025.findings-acl.882.pdf)] 
 
       针对词义归纳（WSI）评估中多义词分布不自然的问题，提出基于自然分布的评估框架，并通过数据增强（如LLM生成、语料库和词典）和半监督学习（如Wiktionary）提升词义归纳的性能。【词义归纳】【SemCor-WSI（基于SemCor构建）、SemEval 2010 Task 14、SemEval 2013 Task 13】【F-B³、NMI、V-measure、Paired F-score等】【基于BERT和Wiktionary的半监督模型】
 
