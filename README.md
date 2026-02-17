@@ -39,15 +39,7 @@ If you find any points in our survey worth discussing or notice any mistakes, fe
 # Citation
 If you think this survey helps, please cite our paper.
 ```
-@misc{chen2025surveyinductivereasoninglarge,
-      title={A Survey of Inductive Reasoning for Large Language Models}, 
-      author={Kedi Chen and Dezhao Ruan and Yuhao Dan and Yaoting Wang and Siyu Yan and Xuecheng Wu and Yinqi Zhang and Qin Chen and Jie Zhou and Liang He and Biqing Qi and Linyang Li and Qipeng Guo and Xiaoming Shi and Wei Zhang},
-      year={2025},
-      eprint={2510.10182},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL},
-      url={https://arxiv.org/abs/2510.10182}, 
-}
+
 ```
 
 
