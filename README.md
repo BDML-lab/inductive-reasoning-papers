@@ -20,7 +20,7 @@ Their statistics are summarized in the following table
 All collected papers are listed below (The Paper List). 
 We have conducted a rough categorization of these papers, which may contain errors or overlaps, and we kindly ask for the readers’ understanding.
 Among all the papers, our survey only focuses on synthesizing and analyzing those related to inductive tasks and language models.
-This is the link to our survey [[ARXIV](https://arxiv.org/abs/2510.10182)].
+
 
 | Conference | 2015 | 2016 | 2017 | 2018 | 2019 | 2020 | 2021 | 2022 | 2023 | 2024 | 2025 |
 |-------------|------|------|------|------|------|------|------|------|------|------|------|
