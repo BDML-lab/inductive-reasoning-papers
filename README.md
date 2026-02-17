@@ -51,7 +51,7 @@ If you think this survey helps, please cite our paper.
 
 1. **When Is Inductive Inference Possible?** [NIPS2024] [[paper link](https://papers.nips.cc/paper_files/paper/2024/file/a8808b75b299d64a23255bc8d30fb786-Paper-Conference.pdf)]
 
-     归纳推理的小综述。
+     归纳推理。
 
 
 ## Benchmarks, Datasets and Tasks
